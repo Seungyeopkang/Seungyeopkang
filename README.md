@@ -33,8 +33,8 @@
 
 ## Most Used Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Seungyeopkang&layout=compact&theme=tokyonight)
+![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seungyeopkang&theme=github_dark)
 
 ## GitHub Stats
 
-![Seungyeopkang's GitHub stats](https://github-readme-stats.vercel.app/api?username=Seungyeopkang&show_icons=true&theme=tokyonight)
+![Seungyeopkang's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seungyeopkang&theme=github_dark)
