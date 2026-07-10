@@ -33,8 +33,8 @@
 
 ## Most Used Languages
 
-![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seungyeopkang&theme=github_dark)
+<img src="./assets/most-used-languages.svg" width="495" alt="Most Used Languages" />
 
 ## GitHub Stats
 
-![Seungyeopkang's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seungyeopkang&theme=github_dark)
+<img src="./assets/github-stats.svg" width="495" alt="Seungyeop Kang's GitHub Stats" />
