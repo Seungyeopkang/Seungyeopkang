@@ -18,10 +18,12 @@ I make neural networks cheaper to run without losing accuracy. I search for effi
 
 ## Research
 
+Full publication list: [seungyeopkang.github.io](https://seungyeopkang.github.io)
+
 | Work | Status | Highlights |
 | --- | --- | --- |
 | **EEM-NAS**: Budgeted fixed-proxy search for zero-shot NAS | *Electronics* 2026 (SCIE), 1st author | 93 wins / 3 ties / 0 losses over 96 paired comparisons, under 100 proxy evaluations · [code](https://github.com/Seungyeopkang/eem-nas) |
-| **Post-search optimization for DARTS-style architectures** | Under review, 1st author | ImageNet **FLOPs −27.2%** at −0.28 pp Top-1. Latency measured on iPhone (CoreML) and Exynos (ONNX Runtime) |
+| **Post-search optimization for DARTS-style architectures** | Manuscript in final preparation (EAAI), 1st author | ImageNet **FLOPs −27.2%** at −0.28 pp Top-1. Latency measured on iPhone (CoreML) and Exynos (ONNX Runtime) |
 | **Size-aware zero-cost NAS proxies** | Under review, 1st author | Audits whether proxy signals survive once model size is controlled. Covers 24 proxies and 6 benchmark families |
 | **When does proxy optimization beat random?** | Manuscript | Shows proxy-optimized selection can underperform random selection · [code](https://github.com/Seungyeopkang/zero-cost-proxy-endpoints) |
 
@@ -49,6 +51,5 @@ I make neural networks cheaper to run without losing accuracy. I search for effi
 
 **Honors:** Outstanding Paper Award (Silver), KIIT 2026 · Gold, AWS DeepRacer League (Kyonggi Univ.) · Silver, Kyonggi Univ. Capstone Design 2025
 
-**Topics:** pruning · quantization · NAS / zero-cost proxies · efficient attention · VLM / RAG pipelines
 
 **Notes:** [Paper Study](https://github.com/Seungyeopkang/Paper_Study), reading notes on NAS, pruning, and efficient models · [LLM Study](https://github.com/Seungyeopkang/llm_study), a 21-day hands-on log covering quantization, QLoRA, data curation, and SFT
