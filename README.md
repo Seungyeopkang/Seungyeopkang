@@ -1,45 +1,51 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ACBCFF&fontColor=0F1035&height=200&section=header&text=Welcome%20to%20Seungyeop's%20GitHub!&fontSize=40" />
-</p>
+<h2 align="center">Seungyeop Kang · 강승엽</h2>
 
-<p align="center"><b>Contact</b></p>
+<p align="center">
+  <b>Efficient Deep Learning</b> — model compression · neural architecture search · on-device inference
+</p>
 
 <p align="center">
   <a href="mailto:a01073553545@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://fuzzy-wildebeest-406.notion.site/Seungyeop-Kang-bb873d4932e08374abde8101f85f3227?source=copy_link"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=notion&logoColor=white" /></a>
-  <a href="https://github.com/Seungyeopkang"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://doi.org/10.3390/electronics15153408"><img src="https://img.shields.io/badge/Publication-Electronics%202026-4B6CB7?style=flat-square" /></a>
 </p>
 
-<p align="center">
-  안녕하세요.<br />
-  AI 모델을 실제 서비스와 도구로 구현하는 강승엽입니다.
-</p>
+I make neural networks cheaper to run without losing accuracy. I search for efficient architectures, prune them, and measure the gains on real devices. I also test whether the cheap signals we search with can actually be trusted.
 
-## Tech Stacks
+- 🎓 B.S. Artificial Intelligence, Kyonggi University (2027) → M.S., AutoML Lab, Chung-Ang University (2027–)
+- 🔬 Now: joint pruning × quantization × low-rank compression for on-device LLMs
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
+## Research
+
+| Work | Status | Highlights |
+| --- | --- | --- |
+| **EEM-NAS**: Budgeted fixed-proxy search for zero-shot NAS | *Electronics* 2026 (SCIE), 1st author | 93 wins / 3 ties / 0 losses over 96 paired comparisons, under 100 proxy evaluations · [code](https://github.com/Seungyeopkang/eem-nas) |
+| **Post-search optimization for DARTS-style architectures** | Under review, 1st author | ImageNet **FLOPs −27.2%** at −0.28 pp Top-1. Latency measured on iPhone (CoreML) and Exynos (ONNX Runtime) |
+| **Size-aware zero-cost NAS proxies** | Under review, 1st author | Audits whether proxy signals survive once model size is controlled. Covers 24 proxies and 6 benchmark families |
+| **When does proxy optimization beat random?** | Manuscript | Shows proxy-optimized selection can underperform random selection · [code](https://github.com/Seungyeopkang/zero-cost-proxy-endpoints) |
+
+## Projects
+
+| Project | What | Key result |
+| --- | --- | --- |
+| [EfficientViT-Optimization](https://github.com/Seungyeopkang/EfficientViT-Optimization) | Parallelized cascaded attention + FlashAttention | Inference latency **−24.9%** (63.9 → 48.0 ms) |
+| [Industrial-Safety-Pipeline](https://github.com/Seungyeopkang/Industrial-Safety-Pipeline) | PPE detection → selective VLM verification → regulation-grounded RAG | Only **27.9%** of detections routed to the VLM. 22/22 regression tests pass |
+| [smart-glass-project](https://github.com/Seungyeopkang/smart-glass-project) | Multi-pass VLM visual memory and grounded QA (AI & team lead, 6 members) | Team-led system → KIIT 2026 paper |
+| [infant_safety_monitor](https://github.com/Seungyeopkang/infant_safety_monitor) | Pose-based fall detection + cry recognition (AI & team lead) | Event-level fusion with evidence clips → KIIT 2025 paper |
+
+## Stack
 
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Core%20ML-000000?style=flat-square&logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Vision--Language%20Models-4B6CB7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Large%20Language%20Models-4B6CB7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
+**Honors:** Outstanding Paper Award (Silver), KIIT 2026 · Gold, AWS DeepRacer League (Kyonggi Univ.) · Silver, Kyonggi Univ. Capstone Design 2025
 
-## Most Used Languages
-
-<img src="./assets/most-used-languages.svg" width="495" alt="Most Used Languages" />
-
-## GitHub Stats
-
-<img src="./assets/github-stats.svg" width="495" alt="Seungyeop Kang's GitHub Stats" />
+**Topics:** pruning · quantization · NAS / zero-cost proxies · efficient attention · VLM / RAG pipelines
