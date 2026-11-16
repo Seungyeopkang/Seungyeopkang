@@ -49,3 +49,5 @@ I make neural networks cheaper to run without losing accuracy. I search for effi
 **Honors:** Outstanding Paper Award (Silver), KIIT 2026 · Gold, AWS DeepRacer League (Kyonggi Univ.) · Silver, Kyonggi Univ. Capstone Design 2025
 
 **Topics:** pruning · quantization · NAS / zero-cost proxies · efficient attention · VLM / RAG pipelines
+
+**Notes:** [Paper Study](https://github.com/Seungyeopkang/Paper_Study), reading notes on NAS, pruning, and efficient models · [LLM Study](https://github.com/Seungyeopkang/llm_study), a 21-day hands-on log covering quantization, QLoRA, data curation, and SFT
