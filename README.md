@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://seungyeopkang.github.io"><img src="https://img.shields.io/badge/Homepage-2B59C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="mailto:a01073553545@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://fuzzy-wildebeest-406.notion.site/Seungyeop-Kang-bb873d4932e08374abde8101f85f3227?source=copy_link"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=notion&logoColor=white" /></a>
   <a href="https://doi.org/10.3390/electronics15153408"><img src="https://img.shields.io/badge/Publication-Electronics%202026-4B6CB7?style=flat-square" /></a>
